@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+h1 {
+    color: #fff;
+    align-self: center;
+}
+
+.contenedor-h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vhs;
+}
+form{
+    background: lightsalmon;
+    padding: 10px;
+}
+input{
+    margin-top: 10px;
+}
+input[type='reset'],
+input[type='submit']{
+    background: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
